@@ -1,0 +1,18 @@
+.header {
+  background: #000;
+ border-bottom: 2px solid #000; /* 線の太さと色を指定 */
+    padding-bottom: 10px; /* 線の下にスペースを追加 */
+}
+
+.header__inner {
+  margin: 0 auto;
+  padding: 20px 15px;
+  max-width: 1230px;
+}
+
+.header__logo {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
