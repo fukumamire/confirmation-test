@@ -1,18 +1,31 @@
-.header {
-  background: #000;
- border-bottom: 2px solid #000; /* 線の太さと色を指定 */
-    padding-bottom: 10px; /* 線の下にスペースを追加 */
-}
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
 .header__inner {
   margin: 0 auto;
   padding: 20px 15px;
   max-width: 1230px;
+  text-align: center;
 }
 
 .header__logo {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 24px;
+    font-size: 48px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#cda16f;
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.header-line {
+    border: none;
+    border-top: 1px solid #f4ebeb; /* 線の色と太さを設定 */
+    width: 100%; /* 画面全体に広がるようにする */
+    margin: 0 auto; /* 中央に配置する */
 }

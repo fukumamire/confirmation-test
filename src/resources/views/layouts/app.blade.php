@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/common.css') }}">
     @yield('head') 
-
     <title>FashionablyLate</title>
+   
 </head>
 <body>
     <header class="header">
@@ -18,6 +18,7 @@
             </a>
         </div>
     </header>
+    <hr class="header-line"> 
 
     <main>
         @yield('content')
