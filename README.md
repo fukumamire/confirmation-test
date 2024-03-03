@@ -23,6 +23,7 @@
 
 ・問い合わせフォームの問い合わせ種類　categoriesテーブルの作成
 
+⑤php artisan key:generate　
 
 **使用技術(実行環境)**
 
