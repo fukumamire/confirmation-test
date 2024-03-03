@@ -11,9 +11,10 @@ class ContactController extends Controller
         return view('contact.contact');
     }
 
-    public function confirm()
+    public function confirm(Request $request)
     {
-        return view('contact.confirm');
+        $data = $request->all();
+        return view('contact.confirm', compact('data'));
     }
 
     public function thanks()
