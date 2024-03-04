@@ -18,7 +18,7 @@ use App\Http\Controllers\AuthController;
 Route::get('/', [ContactController::class, 'form']);
 
 // お問い合わせフォーム確認ページ
-Route::get('/confirm', [ContactController::class, 'confirm']);
+Route::post('/confirm', [ContactController::class, 'confirm'])->name('confirm');
 
 // サンクスページ
 Route::get('/thanks', [ContactController::class, 'thanks']);
