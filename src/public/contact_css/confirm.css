@@ -3,32 +3,49 @@
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
+    text-align: center; /* テキストを中央に配置 */
 }
 
 .confirm-form__content h2 {
     color: #cda16f;
-    background-color: white;
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center; /* 題を中央に配置 */
+}
+
+.confirm-form__content table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.confirm-form__content th,
+.confirm-form__content td {
+    text-align: left;
     padding: 10px;
-    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
 }
 
-.confirm-form__content label {
-    color: white;
+.confirm-form__content th {
     background-color: #cda16f;
-    padding: 5px;
-    display: inline-block;
-    margin-bottom: 10px;
+    color: white;
+    text-align: left; /* テキストを左寄せに変更 */
 }
 
-.confirm-form__content p {
-    margin-bottom: 20px;
+
+.confirm-form__content .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
 }
 
 .confirm-form__content button,
 .confirm-form__content a {
-    display: inline-block;
     padding: 10px 20px;
-    margin-right: 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
