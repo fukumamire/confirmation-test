@@ -17,7 +17,8 @@
             </tr>
             <tr>
                 <th>性別</th>
-                <td>{{ $contact['gender'] ?? '' }}</td>
+                <td>{{ $contact['gender'] == 'male' ? '男性' : ($contact['gender'] == 'female' ? '女性' : 'その他') }}</td>
+
             </tr>
             <tr>
                 <th>メールアドレス</th>
@@ -37,7 +38,25 @@
             </tr>
             <tr>
                 <th>お問い合わせの種類</th>
-                <td>{{ $contact['inquiry_type'] ?? '' }}</td>
+                <td> 
+                    @switch($contact['inquiry_type'])
+                        @case('product_delivery')
+                            商品のお届けについて
+                            @break
+                        @case('product_exchange')
+                            商品の交換について
+                            @break
+                        @case('product_trouble')
+                            商品トラブル
+                            @break
+                        @case('shop_inquiry')
+                            ショップへのお問い合わせ
+                            @break
+                        @case('other')
+                            その他
+                            @break
+                    @endswitch
+                </td>
             </tr>
             <tr>
                 <th>お問い合わせ内容</th>

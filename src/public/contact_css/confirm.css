@@ -19,14 +19,43 @@
 .confirm-form__content table {
     width: 100%;
     margin-top: 20px;
-    border-collapse: collapse;
+    border-collapse: separate; /* セル間の境界線が重ならないようにする */
 }
 
+.confirm-form__content th,
 .confirm-form__content th,
 .confirm-form__content td {
     text-align: left;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc; /* 上下左右に境界線を追加 */
+}
+
+.confirm-form__content th {
+    background-color: #cda16f;
+    color: white;
+}
+
+.confirm-form__content td {
+    color: #cda16f; /* データの文字色を#cda16fに設定 */
+}
+
+
+.confirm-form__content th {
+    background-color: #cda16f;
+    color: white;
+}
+
+.confirm-form__content td {
+    color: #cda16f; /* データの文字色を#cda16fに設定 */
+}
+
+.confirm-form__content th {
+    background-color: #cda16f;
+    color: white;
+}
+
+.confirm-form__content td {
+    color: #cda16f; /* データの文字色を#cda16fに設定 */
 }
 
 .confirm-form__content th {
