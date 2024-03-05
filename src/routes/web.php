@@ -21,7 +21,7 @@ Route::get('/', [ContactController::class, 'form']);
 Route::post('/confirm', [ContactController::class, 'confirm'])->name('confirm');
 
 // サンクスページ
-Route::get('/thanks', [ContactController::class, 'thanks']);
+Route::get('/thanks', [ContactController::class, 'thanks'])->name('thanks');;
 
 // 管理画面
 Route::get('/admin', [AdminController::class, 'dashboard']);

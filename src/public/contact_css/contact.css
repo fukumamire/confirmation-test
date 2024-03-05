@@ -12,7 +12,7 @@
 }
 
 .contact-form__heading h2 {
-    color: #cda16f;
+    color: #551604bf;
     font-family: "Source Serif 4", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -33,7 +33,7 @@ table th {
 
 /* 「お名前」などテーブルのラベルの文字色を変更 */
 table th label {
-    color: #cda16f; /* フォントの色を指定する */
+    color: #551604bf; /* フォントの色を指定する */
 }
 
 th label {
@@ -107,7 +107,7 @@ table td button {
 } 
 
 .radio-group label {
-    color: #cda16f; /* ラジオボタンのラベルの色 */
+    color: #551604bf; /* ラジオボタンのラベルの色 */
 }
 
 /* .radio-group input[type="radio"] {
@@ -131,7 +131,7 @@ table td button {
     display: block;
     width: 10px;
     height: 10px;
-    background-color: #cda16f; /* 選択されたラジオボタンの色 */
+    background-color: #551604bf; /* 選択されたラジオボタンの色 */
     border-radius: 50%;
     position: absolute;
     top: 50%;
@@ -164,20 +164,20 @@ input[type="tel"] {
 /* placeholderプレースホルダーの色を指定 */
 .contact-form__content input::placeholder,
 .contact-form__content textarea::placeholder {
-    color:#cda16f; /* プレースホルダーの色*/
+    color:#551604bf; /* プレースホルダーの色*/
 }
 
 /* お問い合わせ種類<option>要素のテキスト色を変更 */
 .contact-form__content select option {
-    color: #cda16f; /* テキスト色設定 */
+    color: #551604bf; /* テキスト色設定 */
 }
 /* <select>要素内で選択された<option>要素のテキスト色を変更 */
 .contact-form__content select:checked option {
-    color: #cda16f; /* 選択されたオプションのテキスト色を#cda16fに設定 */
+    color:#551604bf; /* 選択されたオプションのテキスト色を#551604bfに設定 */
 }
 
 button {
-    background-color:#CD853F;
+    background-color:#551604bf;
     color: white;
     padding: 10px 20px;
     border: none;

@@ -39,7 +39,10 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
-        $data = $request->all();
+        $contact = $request->only([
+            'last_name', 'first_name', 'gender', 'email', 'area_code', 'local_code', 'phone_number',
+            'address', 'building_name', 'inquiry_type', 'inquiry_content'
+        ]);
         // データのバリデーションを行う
         // データをcontactsテーブルに保存する
         return redirect('/thanks');

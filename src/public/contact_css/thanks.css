@@ -1,0 +1,30 @@
+.mv {
+  position: relative;
+  background: url("../img/thank_you.jpg") no-repeat center/cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: size 24px;
+  color: #551604bf;
+}
+
+.home-button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #551604bf;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    margin-top: 20px; /* メッセージの下に配置するためのマージン */
+}
