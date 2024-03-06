@@ -184,3 +184,9 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+
+.alert-danger {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
