@@ -1,0 +1,115 @@
+/* 全体的なスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ヘッダーのスタイル */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+
+
+
+.header__logo {
+    font-size: 48px;
+    font-weight: bold;
+    text-decoration: none;
+    color:#551604bf;
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+nav a {
+    color: rgba(239, 43, 43, 0.404);
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 10px 20px; /* ボタンのように見せるためのパディングを追加 */
+    background-color: #e2e2e2dd; /* ボタンの背景色 */
+    border-radius: 5px; /* ボタンの角を丸くする */
+    transition: background-color 0.3s ease; /* ホバー時の背景色の変化を滑らかにする */
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+nav a:hover {
+    background-color: #f06767; /* ホバー時の背景色を変更 */
+
+}
+
+/* フォームのスタイル */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #551604bf;
+    font-family: "Source Serif 4", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center; /* テキストをセンターに配置 */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* エラーメッセージのスタイル */
+.error {
+    color: red;
+    margin-top: 5px;
+}
